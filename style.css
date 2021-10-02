@@ -1,0 +1,61 @@
+#Menu{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.options{
+    float: left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+   border-width: 1px; 
+   border-style:solid;
+   border-color: white;
+}
+
+#Home{
+    margin-top: 50px;
+    background:  linear-gradient(#32a879 0%,#32a8a4 100%);
+}
+h1{
+    font-size: 60px;
+    font-style: italic;
+    color: black;
+}
+p{
+    font-size: 25px;
+    color: white;
+}
+#Videos{
+    margin-top: 50px;
+    background:  linear-gradient(#a83a32 0%,#3265a865 100%);
+    margin-bottom: 20px;
+}
+#About{
+    margin-top: 50px;
+    background:  linear-gradient(#0a8ea0 0%,#0baec4b6 100%);
+}
+#About li{
+    color: beige;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+}
+#Merchendise{
+    margin-top: 50px;
+    background:  linear-gradient(#3a32a8 0%,#cbcdcf65 100%);
+    margin-bottom: 20px;
+}
+#Contact{
+    margin-top: 50px;
+    background:  linear-gradient(#248f15 0%,#cbcdcf65 100%);
+    margin-bottom: 20px;
+}
